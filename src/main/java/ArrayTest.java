@@ -1,5 +1,8 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class ArrayTest {
-    public void intArray(int []myints){
+    private void intArray(int []myints){
         int i=0;
         for (int myint:myints){
             System.out.print(myint);
@@ -15,11 +18,16 @@ public class ArrayTest {
     //public void toSmall{
 
    // }
+    private void arraySort(int[] a){
+       Arrays.sort(a);
+
+    }
     public static void main(String[]args)
     {
         ArrayTest arr=new ArrayTest();
-        int [] a={2,4,6,8,9};
+        int [] a={90,4,6,8,9};
         arr.intArray(new int []{2,4});
+        arr.arraySort(a);
         arr.intArray(a);
     }
 }
