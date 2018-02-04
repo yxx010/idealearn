@@ -12,9 +12,9 @@ public class ArrayTest {
             }
         }
     }
-    public void toSmall{
+    //public void toSmall{
 
-    }
+   // }
     public static void main(String[]args)
     {
         ArrayTest arr=new ArrayTest();
